@@ -266,4 +266,48 @@ Wire Wire Line
 Connection ~ 4600 3000
 Wire Wire Line
 	4600 3000 4600 3100
+Text GLabel 3400 2150 2    50   Input ~ 0
+D8
+Text GLabel 3400 2250 2    50   Input ~ 0
+D9
+Text GLabel 3400 2350 2    50   Input ~ 0
+D10
+Text GLabel 3400 2450 2    50   Input ~ 0
+D11
+Text GLabel 3400 2550 2    50   Input ~ 0
+D12
+Text GLabel 3400 2650 2    50   Input ~ 0
+D13
+Text GLabel 3400 3050 2    50   Input ~ 0
+A0
+Text GLabel 3400 3150 2    50   Input ~ 0
+A1
+Text GLabel 3400 3250 2    50   Input ~ 0
+A2
+Text GLabel 3400 3350 2    50   Input ~ 0
+A3
+Text GLabel 3400 3450 2    50   Input ~ 0
+A4_SDA
+Text GLabel 3400 3550 2    50   Input ~ 0
+A5_SCL
+Text GLabel 3400 4050 2    50   Input ~ 0
+D2
+Text GLabel 3400 4150 2    50   Input ~ 0
+D3
+Text GLabel 3400 4250 2    50   Input ~ 0
+D4
+Text GLabel 3400 4350 2    50   Input ~ 0
+D5
+Text GLabel 3400 4450 2    50   Input ~ 0
+D6
+Text GLabel 3400 4550 2    50   Input ~ 0
+D7
+Text GLabel 2200 3850 0    50   Input ~ 0
+ACO
+Text GLabel 2200 3950 0    50   Input ~ 0
+D23
+Text GLabel 2200 4050 0    50   Input ~ 0
+A6
+Text GLabel 2200 4150 0    50   Input ~ 0
+A7
 $EndSCHEMATC
