@@ -1,0 +1,34 @@
+NAME
+
+    atmega328p-base - basic schematics and components for ATmega328p
+
+DESCRIPTION
+
+    Bootstrap KiCAD schematics for ATmega328p based projects. To rename set
+    PROJECT_NAME env:
+
+        export PROJECT_NAME=sixservo
+
+    and clone/update/create new git/project repo:
+
+        git clone https://github.com/jozef/atmega328p-base
+        mv atmega328p-base $PROJECT_NAME
+        cd $PROJECT_NAME
+        rm -rf .git LICENSE Makefile README*
+        ls | perl -lanE '$f=$b=$_;$b=~s/atmega328p-base//; system("mv", $f, $ENV{PROJECT_NAME}.$b)'
+        perl -lanE 's/atmega328p-base/$ENV{PROJECT_NAME}/;say $_' -i $PROJECT_NAME*
+        git init
+        git add .
+
+SEE ALSO
+
+    https://blog.kutej.net/2020/10/ATmega328p-base
+
+LICENSE
+
+    This is free software & hardware, licensed under the MIT License.
+
+AUTHOR
+
+        Jozef Kutej
+
